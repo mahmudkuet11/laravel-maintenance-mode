@@ -67,7 +67,7 @@
 
 <script>
     $(document).ready(function(){
-        var up_time = moment("{{ env('UP_TIME', '2017-04-25 00:00:00') }}");
+        var up_time = moment("{{ config('maintenance-mode.up_time') }}");
 
         var timer_number_day = $(".timer .number .day");
         var timer_number_hour = $(".timer .number .hour");
