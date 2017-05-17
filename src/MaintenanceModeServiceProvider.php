@@ -24,7 +24,9 @@ class MaintenanceModeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(
+            __DIR__.'/config/maintenance-mode.php', 'maintenance-mode'
+        );
     }
 
     private function registerViews(){
