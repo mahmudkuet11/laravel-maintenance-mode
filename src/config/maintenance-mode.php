@@ -30,7 +30,7 @@ return [
     | Dev mode will be expired after specified minutes. After being expired user
     | should visit the site with mode=dev query param to start dev session again.
     */
-    'cookie_exp_min'    =>  1,
+    'cookie_exp_min'    =>  10,
 
     /*
     |----------------------------------------------------------------------------
