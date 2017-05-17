@@ -85,7 +85,7 @@
             var day = diff/(1000*60*60*24);
             var hour = (day - parseInt(day)) * 24;
             var minute = (hour - parseInt(hour)) * 60;
-            var second = (minute - parseInt(minute)) * 60
+            var second = (minute - parseInt(minute)) * 60;
 
             day = parseInt(day);
             hour = parseInt(hour);
