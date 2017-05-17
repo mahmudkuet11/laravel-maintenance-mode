@@ -81,12 +81,16 @@
 
         var interval = setInterval(function(){
             var current_time = moment();
-            var duration = moment.duration(up_time.diff(current_time));
+            var diff = up_time.diff(current_time);
+            var day = diff/(1000*60*60*24);
+            var hour = (day - parseInt(day)) * 24;
+            var minute = (hour - parseInt(hour)) * 60;
+            var second = (minute - parseInt(minute)) * 60
 
-            var day = duration.days();
-            var hour = duration.hours();
-            var minute = duration.minutes();
-            var second = duration.seconds();
+            day = parseInt(day);
+            hour = parseInt(hour);
+            minute = parseInt(minute);
+            second = parseInt(second);
 
             if(day <= 0 && hour <= 0 && minute <= 0 && second <= 0){
                 clearInterval(interval);
