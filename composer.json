@@ -1,0 +1,12 @@
+{
+    "name": "mahmud/maintenance-mode",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Mahmud",
+            "email": "mahmudkuet11@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
