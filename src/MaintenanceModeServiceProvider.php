@@ -13,7 +13,8 @@ class MaintenanceModeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'maintenance-mode');
+        $this->registerViews();
+        $this->registerConfig();
     }
 
     /**
@@ -24,5 +25,19 @@ class MaintenanceModeServiceProvider extends ServiceProvider
     public function register()
     {
         //
+    }
+
+    private function registerViews(){
+        $this->loadViewsFrom(__DIR__.'/views', 'maintenance-mode');
+
+        $this->publishes([
+            __DIR__.'/views' => resource_path('views/vendor/maintenance-mode'),
+        ]);
+    }
+
+    private function registerConfig(){
+        $this->publishes([
+            __DIR__.'/config/maintenance-mode.php' => config_path('maintenance-mode.php'),
+        ]);
     }
 }
