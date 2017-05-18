@@ -60,6 +60,8 @@ Once you browse like this you can browse for the next few minutes specified in [
 
 ### Configuration
 
+To change configuration go to `config/maintenance-mode.php`. Available configurations are listed below.
+
 #### app_status
 
 This is the status of your app. Possible value are: `down` | `up` . When you start maintenance work, you should set the status to `down`. You can also set the status from .env file. Just set `APP_STATUS=down` in your environment.
