@@ -34,12 +34,12 @@ class MaintenanceModeServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/views' => resource_path('views/vendor/maintenance-mode'),
-        ]);
+        ], 'maintenance-mode');
     }
 
     private function registerConfig(){
         $this->publishes([
             __DIR__.'/config/maintenance-mode.php' => config_path('maintenance-mode.php'),
-        ]);
+        ], 'maintenance-mode');
     }
 }
