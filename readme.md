@@ -56,7 +56,7 @@ The URL will be
 http://your-site.com?mode=dev
 ```
 
-Once you browse like this you can browse for the next specified minutes defined in `config/maintenance-mode.php`
+Once you browse like this you can browse for the next few minutes specified in [cookie_exp_min](https://github.com/mahmudkuet11/laravel-maintenance-mode/tree/dev#cookie_exp_min)
 
 ### Configuration
 
