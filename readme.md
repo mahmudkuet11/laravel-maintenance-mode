@@ -24,13 +24,21 @@ Or add dependency to `composer.json` file
 ]
 ```
 
-3. Publish resources by this command
+3. Add the following Middleware in middleware array in app/Http/Kernel.php
+
+```
+protected $middleware = [
+    \Mahmud\MaintenanceMode\Middleware\MaintenanceModeMiddleware::class,
+];
+```
+
+4. Publish resources by this command
 
 ```bash
 php artisan vendor:publish --tag=maintenance-mode --force
 ```
 
-4. Add `APP_STATUS` and `UP_TIME` to your `.env` file
+5. Add `APP_STATUS` and `UP_TIME` to your `.env` file
 
 ```bash
 APP_STATUS=down
