@@ -1,3 +1,7 @@
+### Laravel Maintenance Mode
+
+![Screenshot](https://cloud.githubusercontent.com/assets/5725014/26293038/a4619f42-3edc-11e7-9f5c-ef8ad3529184.jpg)
+
 ## Installation
 
 1. Install package through composer
