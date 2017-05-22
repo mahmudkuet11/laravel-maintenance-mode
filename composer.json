@@ -1,5 +1,6 @@
 {
     "name": "mahmud/maintenance-mode",
+    "description": "Put your application down and browse in dev mode.",
     "type": "composer-plugin",
     "authors": [
         {
