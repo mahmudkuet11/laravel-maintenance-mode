@@ -15,5 +15,10 @@
         "illuminate/http": "^5.1",
         "illuminate/support": "^5.1",
         "nesbot/carbon": "~1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mahmud\\MaintenanceMode\\": "src/"
+        }
     }
 }
