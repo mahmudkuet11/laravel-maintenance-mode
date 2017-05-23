@@ -15,7 +15,7 @@ Or add dependency to `composer.json` file
 ```json
 {
     "require": {
-        "mahmud/maintenance-mode": "~1.0"
+        "mahmud/maintenance-mode": "^1.0"
     }
 }
 ```
