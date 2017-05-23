@@ -1,17 +1,19 @@
 {
     "name": "mahmud/maintenance-mode",
     "description": "Put your application down and browse in dev mode.",
-    "type": "composer-plugin",
+    "type": "library",
     "authors": [
         {
             "name": "Mahmud",
             "email": "mahmudkuet11@gmail.com"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.4.*",
+        "illuminate/http": "^5.1",
+        "illuminate/support": "^5.1",
         "nesbot/carbon": "~1.18"
     }
 }
