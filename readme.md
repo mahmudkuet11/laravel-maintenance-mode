@@ -1,4 +1,11 @@
-### Laravel Maintenance Mode
+## Laravel Maintenance Mode
+
+[![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![Packagist Release](https://img.shields.io/packagist/v/mahmud/maintenance-mode.svg)]()
+[![Packagist](https://img.shields.io/packagist/dt/mahmud/maintenance-mode.svg)]()
+[![Packagist](https://img.shields.io/packagist/l/mahmud/maintenance-mode.svg)]()
+
+Put your application down and browse in dev mode.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/5725014/26293038/a4619f42-3edc-11e7-9f5c-ef8ad3529184.jpg)
 
