@@ -1,9 +1,12 @@
-## Laravel Maintenance Mode
+<h2 align="center">Laravel Maintenance Mode</h2>
 
-[![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-[![Packagist Release](https://img.shields.io/packagist/v/mahmud/maintenance-mode.svg)]()
-[![Packagist](https://img.shields.io/packagist/dt/mahmud/maintenance-mode.svg)]()
-[![Packagist](https://img.shields.io/packagist/l/mahmud/maintenance-mode.svg)]()
+
+<p align="center">
+<a href="https://packagist.org/packages/mahmud/maintenance-mode"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/mahmud/maintenance-mode"><img src="https://img.shields.io/packagist/v/mahmud/maintenance-mode.svg" alt="Packagist Version"></a>
+<a href="https://packagist.org/packages/mahmud/maintenance-mode"><img src="https://img.shields.io/packagist/dt/mahmud/maintenance-mode.svg" alt="Downloads"></a>
+<a href="https://packagist.org/packages/mahmud/maintenance-mode"><img src="https://img.shields.io/packagist/l/mahmud/maintenance-mode.svg" alt="License"></a>
+</p>
 
 Put your application down and browse in dev mode.
 
